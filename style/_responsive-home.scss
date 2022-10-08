@@ -1,0 +1,578 @@
+@include responsive_pclow{
+    .container{
+        max-width: 1200px;
+    }
+    .content--banner{
+        height: 50rem;
+        &--title{
+            padding: 9rem 34% 0 34%;
+            font-size: 3.2rem;
+            line-height: 4rem;
+        }
+        .bds--options{
+            width: 100rem;
+            display: flex;
+            &--heading{
+                &__list{
+                    &--item{
+                        &--link{
+                            width: 21rem;
+                            font-size: 1.6rem;
+                            line-height: 4.2rem;
+                        }
+                    }
+                }
+            }
+            .tabs--content{
+                background: rgb(0, 0, 0, 0.6);
+                .bds--options--container{
+                    .bds--options--search{
+                        display: flex;
+                        align-items: center;
+                        margin: 0.5rem 0.6rem;
+
+                    }
+                }
+            }
+        }
+    }
+    .site--content{
+        padding-top: 2.2rem;
+
+    }
+    .site--main{
+        &--module{
+            &--header{
+                margin-bottom: 3rem;
+                margin-top: 13.5rem;
+                &__title{
+                    font-size: 3.6rem;
+                    line-height: 6rem;
+                }
+            }
+            .module-content{
+                &--item{
+                    margin-bottom: 7.4rem;
+
+                 &-header{
+                    &-icon{
+                        width: 1.6rem;
+                        height: 1.6rem;
+                    }
+                    &-title{
+                        line-height: 7.5rem;
+                        font-size: 2rem;
+
+                    }
+                 }
+                 &__image{
+                    padding-bottom: 5.6rem;
+
+                 }
+                  
+                }
+                &--btn{
+                    &-more{
+                        font-size: 1.8rem;
+                        line-height: 6rem;
+                        padding: 0 5rem;
+
+                    }
+                }
+            }
+        }
+    }
+    .group-intro{
+        margin-top: 20rem;
+        padding-bottom: 6.7rem;
+
+        &-title{
+            font-size: 3.6rem;
+            line-height: 4rem;
+            padding: 10rem 0 7.4rem 0;
+        }
+    }
+    .consultants-teams{
+        padding: 12.2rem 0 4rem 0;
+
+        &-title{
+            font-size: 3.6rem;
+        }
+        &-desc{
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            padding: 0 18rem;
+        }   
+        &-item{
+            margin-top: 2.5rem;
+        }
+        &-footer{
+            padding-top: 12rem;
+            font-size: 1.8rem;
+
+        }
+           
+    }
+    .procedure{
+        background-image: url(../images/avt/background-quy-trinh.png);
+        @include backgroundImage();
+        height: 42.7rem;
+        &-background{
+            background: rgba(25, 54, 102, 0.7);
+
+            .container{
+                .procedure-list{
+                    padding: 5rem 0;
+                    .procedure-right{
+                        &-list{
+                            .procedure-right--item{
+                                margin: 1rem 0;
+
+                            
+                                &__text{
+                                    color: $white;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .slide-investor-group{
+        padding: 3.6rem 0 7.2rem 0;
+        .investor--group{
+            margin-top: 5.4rem;
+            &--image{
+                a{
+                    img{
+                        width: auto;
+                    }
+                }
+            }
+        }
+
+    }
+    .slick-prev{
+        left: -3rem;
+    }
+    .slick-next{
+        right: -3rem;
+    }
+   .content--banner .content--banner-background .bds--options .tabs--content .bds--options--container .bds--options--select .options--category--list__item{
+    min-width: 20.3rem;
+    }
+    .feedback{
+        padding: 14rem 0 4rem 0;
+        &-title{
+            font-size: 3.6rem;
+        }
+        &-list{
+            &-item{
+                margin-top: 6rem;
+                &__user{
+                    &-avt{
+                        width: 16rem;
+                        height: 17rem;
+                    }
+                    &-name{
+                        margin-top: 3.6rem;
+                        font-size: 1.6rem;
+                        line-height: 4rem;
+
+                    }
+                }
+                &__content{
+                    line-height: 4rem;
+                    padding: 3.6rem 9.9rem 3.6rem 6.7rem;
+                }
+            }
+        }
+    }
+    
+}
+
+@include responsive_tablet{
+    .content--banner{
+        height: 40rem;
+        &--title{
+            padding: 2rem 20% 0 20%;
+            font-size: 3.2rem;
+            line-height: 4rem;
+        }
+        .bds--options{
+            display: flex;
+            width: 100%;
+            &--heading{
+                &__list{
+                    &--item{
+                        &--link{
+                            padding: 0 1rem;
+                            font-size: 1.6rem;
+                            line-height: 4.2rem;
+                        }
+                    }
+                }
+            }
+            .tabs--content{
+                background: rgb(0, 0, 0, 0.6);
+                .bds--options--container{
+                    .bds--options--search{
+                        display: flex;
+                        align-items: center;
+                        margin: 0.5rem 0.6rem;
+                    }
+                }
+            }
+        }
+    }
+    .site--content{
+        padding-top: 2.2rem;
+
+    }
+    .site--main{
+        &--module{
+            &--header{
+                margin-bottom: 2rem;
+                margin-top: 3.5rem;
+                &__title{
+                    font-size: 2.6rem;
+                    line-height: 6rem;
+                }
+            }
+            .module-content{
+                &--item{
+                    margin-bottom: 2.4rem;
+
+                 &-header{
+                    &-icon{
+                        width: 1.6rem;
+                        height: 1.6rem;
+                    }
+                    &-title{
+                        line-height: 7.5rem;
+                        font-size: 2rem;
+
+                    }
+                 }
+                 &__image{
+                    padding-bottom: 5.6rem;
+
+                 }
+                  
+                }
+                &--btn{
+                    &-more{
+                        font-size: 1.8rem;
+                        line-height: 4rem;
+                        padding: 0 3rem;
+
+                    }
+                }
+            }
+        }
+    }
+    .group-intro{
+        margin-top: 4rem;
+        padding-bottom: 6.7rem;
+
+        &-title{
+            font-size: 3.6rem;
+            line-height: 4rem;
+            padding: 3rem 0 4.4rem 0;
+        }
+        &-item{
+            &--title{
+                height: 8rem;
+            }
+        }
+    }
+    .consultants-teams{
+        padding: 6.2rem 0 4rem 0;
+
+        &-title{
+            font-size: 3.6rem;
+        }
+        &-desc{
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            // padding: 0 18rem;
+        }   
+        &-item{
+            margin-top: 2.5rem;
+        }
+        &-footer{
+            padding-top: 4rem;
+            font-size: 1.8rem;
+
+        }
+           
+    }
+    .procedure{
+        background-image: url(../images/avt/background-quy-trinh.png);
+        @include backgroundImage();
+        height: 42.7rem;
+        &-background{
+            background: rgba(25, 54, 102, 0.7);
+
+            .container{
+                .procedure-list{
+                    // padding: 5rem 0;
+                    .procedure-right{
+                        &-list{
+                            .procedure-right--item{
+                                margin: 1rem 0;
+
+                            
+                                &__text{
+                                    color: $white;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .slide-investor-group{
+        padding: 3.6rem 0 7.2rem 0;
+        .investor--group{
+            margin-top: 5.4rem;
+            &--image{
+                a{
+                    img{
+                        width: auto;
+                    }
+                }
+            }
+        }
+
+    }
+    .feedback{
+        padding: 3rem 0 4rem 0;
+        &-title{
+            font-size: 2.4rem;
+        }
+        &-list{
+            &-item{
+                margin-bottom: 1.5rem;
+                &__user{
+                    &-avt{
+                        width: 10rem;
+                        height: 10rem;
+                    }
+                    &-name{
+                        font-size: 1.2rem;
+                        margin-top: 2rem;
+                    }
+                }
+                &__content{
+                    line-height: 3rem;
+                }
+            }
+        }
+    }
+    .slick-prev{
+        left: -3rem;
+    }
+    .slick-next{
+        right: -3rem;
+    }
+}
+@include responsive_mobile{
+    .content--banner{
+        height: 13.2rem;
+        &--title{
+            font-size: 1.3rem;
+            line-height: 2rem;
+            padding: 4.6rem 8rem;
+        }
+        .bds--options{
+            width: 100%;
+            padding: 2rem;
+            &--heading{
+                width: 100%;
+                &__list{
+                    &--item{
+                        width: 33.3333333%;
+                        &--link{
+                           font-size: 1.2rem;
+                          width: 100%;
+                          padding: 1rem 0;
+                        }
+                    }
+                }
+            }
+            .tabs--content{
+                .bds--options--container{
+                    .bds--options--search{
+                        &__wrap{
+                            margin: 1rem 0;
+                        }
+                        &__btn{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+      .site--main--module{
+        .module-content{
+            .fast--news{
+                &--desc{
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 4;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+      }
+      .site--content{
+        padding-top: 1rem;
+          .site--main{
+            &--module{
+                &--header{
+                    margin-top: 2.3rem;
+                    margin-bottom: 1.6rem;
+                    &__title{
+                        font-size: 1.8rem;
+                        line-height: 4.5rem;
+                    }
+                    .menu-content{
+                        padding-bottom: 2.5rem;
+                        &--list{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-evenly;
+                            &__item{
+                                &-link{
+                                    font-size: 1.2rem;
+                                    line-height: 3rem;
+                                    color: $background-nav;
+                                    text-transform: uppercase;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+                .module-content{
+                    &--item{
+                        margin-bottom: 1rem;
+                     &-header{
+                        &-icon{
+                            width: 1rem;
+                            height: 1rem;
+                        }
+                        &-title{
+                            line-height: 3.2rem;
+                            font-size: 1rem;
+    
+                        }
+                     }
+                     &__image{
+                        padding-bottom: 2.4rem;
+    
+                     }
+                      
+                    }
+                    &--btn{
+                        margin-top: 2.2rem;
+                        &-more{
+                            font-size: 1.1rem;
+                            line-height: 2.8rem;
+                            padding: 0 3rem;
+    
+                        }
+                    }
+                    .investor-group{
+                        padding: 0 2rem;
+                    }
+                }
+            }
+            }
+
+      }
+      .group-intro{
+        margin-top: 5.8rem;
+        padding-bottom: 4.5rem;
+        &-title{
+            font-size: 1.8rem;
+            line-height: 3.9rem;
+            padding: 2.6rem 0 3.9rem 0;
+        }
+        
+        }
+        .consultants-teams{
+    
+            &-title{
+                font-size: 2.4rem;
+            }
+            &-desc{
+                font-size: 1rem;
+                line-height: 2rem;
+            }   
+            &-item{
+                margin-top: 1.6rem;
+            }
+            &-footer{
+                font-size: 1.2rem;
+                padding-top: 1.6rem;
+            }
+        }
+        .procedure{
+            padding: 3.6rem 1.5rem 0 1.5rem;
+            position: relative;
+            &-background{
+                .container{
+                    .procedure-list{
+                        .procedure-right{
+                            &-list{
+                                .procedure-right--item{
+                                    margin-bottom: 2.7rem;
+                                    &__number{
+                                        display: none;
+                                    }
+                                    &__text{
+                                        color: $background-nav;
+                                        &--title{
+                                            font-weight: bold;
+                                        }
+                                        &--desc{
+                                            text-align: justify;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .procedure::after{
+            content: "";
+            position: absolute;
+            border-top: 1px solid #193666;
+            top: 0;
+            margin: 0 auto;
+            display: block;
+            width: 90%;
+        }
+        .slide-investor-group{
+            padding: 2rem;
+            .site--main--module--header{
+                display: none;
+            }
+        }
+    .slick-prev{
+        left: -2rem;
+    }
+    .slick-next{
+        right: -2rem;
+    }
+}
