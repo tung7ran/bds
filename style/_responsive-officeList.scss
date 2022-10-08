@@ -1,0 +1,41 @@
+@include responsive_mobile{
+    .office-content-text{
+        &__title{
+            font-size: 2rem;
+            line-height: 4.5rem;
+        }
+    }
+    .office-by-district{
+        margin-top: 4rem;
+
+    }
+}
+@include responsive_tablet{
+
+}
+@include responsive_pclow{
+    .office-content{
+        .office-content-text{
+            &__title{
+                font-size: 3.6rem;
+                line-height: 4.5rem;
+            }
+            &__desc{
+                padding: 0 19rem 3rem;
+    
+            }
+        }
+        .office-by-district{
+            margin-top: 8rem;
+        }
+        .office-street-name{
+            &-item{
+                justify-content: center;
+            }
+        }
+        .post--information{
+            margin-top: 8.8rem;
+
+        }
+    }
+}

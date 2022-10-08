@@ -1,0 +1,86 @@
+@include responsive_mobile{
+    .contact-content{
+        .banner-contact{
+            height: 10rem;
+            &-title{
+            font-size: 1.7rem;
+
+            }
+        }
+        &-top{
+            &-list{
+                .contact--address{
+                    margin-top: 3.5rem;
+                }
+            }
+        }
+        &-maps{
+            margin-bottom: 5rem;
+
+            &__title{
+                text-align: center;
+            }
+            &__images{
+            height: 29.7rem;
+
+            }
+        }
+    }
+}
+@include responsive_tablet{
+    .contact-content{
+        .banner-contact{
+            height: 21rem;
+
+            &-title{
+            font-size: 3.6rem;
+
+            }
+        }
+        &-top{
+            margin-top: 5.8rem;
+            &-list{
+                .contact--address{
+
+                }
+            }
+        }
+        &-maps{
+        margin-bottom: 12.2rem;
+
+            &__images{
+            height: 36.7rem;
+
+            }
+        }
+    }
+}
+@include responsive_pclow{
+    .contact-content{
+        .banner-contact{
+        height: 21rem;
+
+            &-title{
+            font-size: 4.8rem;
+
+            }
+        }
+        &-top{
+            margin-top: 5.8rem;
+            &-list{
+                .contact--address{
+                    padding: 0 0 0 5.1rem;
+
+                }
+            }
+        }
+        &-maps{
+        margin-bottom: 12.2rem;
+
+            &__images{
+            height: 36.7rem;
+
+            }
+        }
+    }
+}
